@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soma — Book Support</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#19293e;--peach:#f2c8a9;--teal:#18B59A;--muted:#99A0AB;--bg:#f4f6f9;--card:#fff;}
+    *{box-sizing:border-box;} body{margin:0;font-family:'Inter',sans-serif;background:var(--bg);color:var(--navy);display:flex;align-items:center;justify-content:center;height:100vh;padding:20px;}
+    .card{background:var(--card);padding:32px;border-radius:16px;width:100%;max-width:520px;box-shadow:0 10px 30px rgba(0,0,0,0.06);} h2{margin:0 0 10px;font-size:28px;} p{margin:0 0 24px;color:var(--muted);} label{font-weight:600;display:block;margin-bottom:6px;} input,textarea,select{width:100%;padding:12px 14px;margin-bottom:18px;border:1px solid rgba(0,0,0,0.1);border-radius:10px;font-size:15px;} textarea{min-height:90px;} .btn{width:100%;padding:12px;border:none;border-radius:12px;background:var(--teal);color:white;font-weight:700;font-size:16px;cursor:pointer;} .btn:hover{opacity:0.9;}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Book Student Support</h2>
+    <p>Select the service you need and a Soma mentor will assist you.</p>
+    <form>
+      <label>Your Name</label>
+      <input type="text" placeholder="Enter your name" required>
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" required>
+      <label>Select Service</label>
+      <select>
+        <option>Airport Pickup + SIM Setup</option>
+        <option>CAF Guidance</option>
+        <option>TBM Transport Setup</option>
+        <option>Bank Account Assistance</option>
+        <option>Groceries + Store Orientation</option>
+        <option>Cultural Integration Walk</option>
+      </select>
+      <label>Additional Notes</label>
+      <textarea placeholder="Anything else we should know?"></textarea>
+      <button class="btn">Book Now</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soma — Pricing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#19293e;--peach:#f2c8a9;--teal:#18B59A;--muted:#99A0AB;--bg:#f4f6f9;--card:#fff;}
+    *{box-sizing:border-box;} body{margin:0;font-family:'Inter',sans-serif;background:var(--bg);color:var(--navy);padding:40px;display:flex;flex-direction:column;align-items:center;}
+    h1{font-size:36px;margin-bottom:10px;font-weight:700;} p.subtitle{color:var(--muted);margin-bottom:40px;font-size:18px;}
+    .pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px;max-width:1000px;width:100%;}
+    .plan{background:var(--card);padding:28px;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,0.06);border:2px solid transparent;transition:0.3s;} .plan:hover{border-color:var(--teal);transform:translateY(-4px);} 
+    .plan h2{font-size:24px;margin:0 0 12px;} .price{font-size:32px;font-weight:700;margin-bottom:16px;} ul{padding-left:20px;margin-bottom:22px;color:var(--muted);} li{margin-bottom:6px;}
+    .btn{display:block;text-align:center;padding:12px;border-radius:12px;background:var(--teal);color:white;font-weight:700;text-decoration:none;} .btn:hover{opacity:0.9;}
+  </style>
+</head>
+<body>
+  <h1>Soma Pricing</h1>
+  <p class="subtitle">Simple, transparent pricing for every student’s needs.</p>
+  <div class="pricing-grid">
+    <div class="plan">
+      <h2>Starter</h2>
+      <div class="price">Free</div>
+      <ul>
+        <li>Basic guidance</li>
+        <li>Chat support</li>
+        <li>Community access</li>
+      </ul>
+      <a class="btn" href="signup.html">Get Started</a>
+    </div>
+    <div class="plan">
+      <h2>Arrival Pack</h2>
+      <div class="price">€29</div>
+      <ul>
+        <li>Airport pickup</li>
+        <li>SIM + TBM assistance</li>
+        <li>Essential groceries tour</li>
+      </ul>
+      <a class="btn" href="book.html">Book Now</a>
+    </div>
+    <div class="plan">
+      <h2>Full Support</h2>
+      <div class="price">€49</div>
+      <ul>
+        <li>Everything in Arrival Pack</li>
+        <li>CAF + bank assistance</li>
+        <li>Culture integration walk</li>
+      </ul>
+      <a class="btn" href="book.html">Book Now</a>
+    </div>
+  </div>
+</body>
+</html>
